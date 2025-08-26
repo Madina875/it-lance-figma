@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./components/header/Header";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/Hero";
-import More from "./components/more/More";
-import Skills from "./components/skills/Skills";
+import Header from "./components/header/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import Hero from "./components/Hero/Hero.jsx";
+import More from "./components/more/More.jsx";
+import Skills from "./components/skills/Skills.sjx";
 
 const App = () => {
   return (

@@ -12,7 +12,6 @@ const Footer = () => {
             <div>
               <span>Меня зовут</span>
               <input type="text" placeholder="Ваше имя" />
-
               <span>телефон</span>
               <input type="text" placeholder="Ваш номер телефона" />
             </div>
