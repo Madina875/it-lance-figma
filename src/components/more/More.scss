@@ -18,7 +18,7 @@
       display: grid;
       grid-template-columns: repeat(1, 3fr);
       gap: 20px;
-      overflow: hidden;
+      overflow: auto;
       &-card {
         width: 100%;
         height: auto;
@@ -36,6 +36,15 @@
         span {
           margin-bottom: 3%;
         }
+      }
+    }
+    @media (max-width: 1355px) {
+      .more-wrapper__cards {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 20px;
+        overflow: auto;
       }
     }
   }
